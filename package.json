@@ -1,0 +1,38 @@
+{
+  "name": "backbone-db-dropbox",
+  "version": "0.1.3",
+  "description": "Dropbox datastore API driver for backbone-db",
+  "main": "index.js",
+  "keywords": [
+    "backbone",
+    "backbone-db",
+    "elasticsearch",
+    "search"
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikkolehtinen/backbone-db-dropbox.git"
+  },
+  "author": {
+    "name": "mikkolehtinen",
+    "email": "mikko@applifier.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "backbone-db": "~0.4",
+    "backbone": "~1.1.0",
+    "debug": "~0.8"
+  },
+  "devDependencies": {
+    "mocha": "~1.18",
+    "jshint": "~2.4",
+    "istanbul": "~0.2",
+    "chai": "~1.9",
+    "backbone-promises": "~0.2",
+    "dropbox-mock": "0.0.5"
+  }
+}
